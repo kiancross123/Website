@@ -12,7 +12,6 @@ body{
     flex-direction: row;
     font-family: 'MyFont', sans-serif;  
     overflow: auto;
-    height: fit-content;
 }
 
 .nav-bar{

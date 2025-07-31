@@ -1,6 +1,5 @@
 body{
     overflow: auto;
-    height: fit-content;
 }
 .Basic-Details{
     display: flex;
