@@ -1,0 +1,38 @@
+body{
+    overflow: auto;
+    height: fit-content;
+}
+.Basic-Details{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.Image{   
+    width: fit-content;
+    margin: 0;
+    display: flex;
+}
+.Image img{
+    width: 170px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.Details{
+    color: gray;
+    font-size: 70%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Extra{
+    width: 50%;
+}
+.Extra h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Extra p {
+    font-size: 80%;
+}
