@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MyFont'; /* You can name this whatever you like */
-    src: url('/font/Genshin-Font.ttf') format('truetype');
+    src: url('Genshin-Font.ttf') format('truetype');
 }
 body,html{
     margin: 0;
