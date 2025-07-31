@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>   
+</head>
+<body> 
+    <header class="nav-bar">
+    <h1 class="Page-Title">ACT</h1>
+    <nav>
+        <ul class="nav-links">
+        <li><a href="#">Login</a></li>
+        <li><a >About</a></li>
+        </ul>
+    </nav>
+    </header> 
+
+    <div class="login">
+        <h2>Login</h2> 
+        <div class="forms">
+        <div class="login-form" >  
+            Login          
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" placeholder="Enter username" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" placeholder="Enter password" required><br><br>
+
+            <input type="submit" value="Login">  
+            <input type="submit" value="Register" onclick="GotoRegister()"> 
+        </div>  
+        <div class="register-form" >       
+            Register     
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" placeholder="Enter username" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" placeholder="Enter password" required><br><br>
+
+            <input type="submit" value="Create" onclick="GotoLogin()">  
+            <input type="submit" value="Login"> 
+        </div>    
+        </div>
+               
+    </div>   
+</body>
+
+</html>
